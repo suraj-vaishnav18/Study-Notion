@@ -1,31 +1,81 @@
-# React & Tailwind CSS Starter Pack
+# StudyNotion 📚
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
+A full stack EdTech platform where students can enroll in courses 
+and instructors can create and manage courses.
 
-## Usage
 
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
 
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
-    ```
+## ✨ Features
 
-1. Install the required packages.
-    ```sh
-    cd react-tailwind-css-starter-pack
-    npm install
-    ```
+### Student
+- Browse and enroll in courses
+- Secure login and registration
+- Manage profile and enrolled courses
+- Add courses to cart and checkout
 
-1. Start the development server.
-    ```sh
-    npm start
-    ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
+### Instructor
+- Create and publish courses
+- Manage course content
+- Track enrolled students
 
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
+## 🛠️ Tech Stack
 
-## Contributing
+**Frontend:**
+- React.js
+- Redux Toolkit (auth, cart, profile, course slices)
+- Tailwind CSS
 
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
+**Backend:**
+- Node.js
+- Express.js
+- MongoDB
+
+**Other:**
+- JWT Authentication
+- Protected Routes
+- Role-based access (Student & Instructor)
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository
+```bash
+git clone https://github.com/suraj-vaishnav18/Study-Notion
+```
+
+2. Install frontend dependencies
+```bash
+cd src
+npm install
+```
+
+3. Install backend dependencies
+```bash
+cd SERVER
+npm install
+```
+
+4. Create `.env` file in SERVER folder
+```env
+MONGODB_URI=your_mongodb_uri
+JWT_SECRET=your_jwt_secret
+```
+
+5. Run the backend
+```bash
+cd SERVER
+npm start
+```
+
+6. Run the frontend
+```bash
+cd src
+npm start
+```
+
+7. Open in browser
+http://localhost:3000
+
+
+## 📬 Contact
+- GitHub: [@suraj-vaishnav18](https://github.com/suraj-vaishnav18)
+- Email: surajvaishnav2677@gmail.com
